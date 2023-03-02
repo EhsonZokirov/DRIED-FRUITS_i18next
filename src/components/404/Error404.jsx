@@ -9,10 +9,10 @@ function Error404() {
   return (
     <div>
       <div className="text-center ">
-        <h1 className="bg-red-500 md:w-[50%] m-auto p-5 text-[40px] mt-20 rounded-full font-bold">
+        <h1 className="bg-orange-500 md:w-[50%] m-auto p-5 text-[40px] mt-20 rounded-full font-bold">
           {t("Error")}
         </h1>
-        <h1 className="hover:text-blue-500">
+        <h1 className="hover:text-blue-500 animate-bounce ">
           <Link to="/Glavnaya">{t("linkError")}</Link>
         </h1>
       </div>

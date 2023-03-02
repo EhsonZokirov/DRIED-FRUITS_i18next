@@ -2,7 +2,7 @@ import { Email, Language, Phone } from "@mui/icons-material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import React from "react";
 import { Outlet } from "react-router";
-import { Link } from "react-router-dom";
+import { Nav, NavLink, NavLinkLinkNavLink } from "react-router-dom";
 import logo from "../../images/logo.png";
 
 import { useTranslation } from "react-i18next";
@@ -23,42 +23,42 @@ function Layout() {
             <li className="flex gap-2">
               <img src={logo} alt="logo" />
             </li>
-            <Link
-              className="hover:text-slate-400 active:text-black"
+            <NavLink
+              className="hover:text-orange-500 active:text-black"
               to="/Glavnaya"
             >
               {t("home")}
-            </Link>
-            <Link
-              className="hover:text-slate-400 active:text-black"
+            </NavLink>
+            <NavLink
+              className="hover:text-orange-500 active:text-black"
               to="/Catalog"
             >
               {t("catalog")}
-            </Link>
-            <Link
-              className="hover:text-slate-400 active:text-black"
+            </NavLink>
+            <NavLink
+              className="hover:text-orange-500 active:text-black"
               to="/About"
             >
               {t("About")}
-            </Link>
-            <Link
-              className="hover:text-slate-400 active:text-black"
+            </NavLink>
+            <NavLink
+              className="hover:text-orange-500 active:text-black"
               to="/Delivery"
             >
               {t("Delivery")}
-            </Link>
-            <Link
-              className="hover:text-slate-400 active:text-black"
+            </NavLink>
+            <NavLink
+              className="hover:text-orange-500 active:text-black"
               to="/Market"
             >
               {t("Market")}
-            </Link>
-            <Link
-              className="hover:text-slate-400 active:text-black"
+            </NavLink>
+            <NavLink
+              className="hover:text-orange-500 active:text-black"
               to="/Contacts"
             >
               {t("Contact")}
-            </Link>
+            </NavLink>
           </ul>
           <ul className="flex m-auto gap-5 items-center">
             <li>
@@ -108,36 +108,36 @@ function Layout() {
       <Outlet />
       <nav className="md:grid my-20 md:flex flex-wrap md:grid-cols-2 items-center p-5 hidden ">
         <ul className="hidden lg:flex  m-auto items-center md:gap-5 ">
-          <Link
-            className="hover:text-slate-400 active:text-black"
+          <NavLink
+            className="hover:text-orange-500 active:text-black"
             to="/Glavnaya"
           >
             {t("home")}
-          </Link>
-          <Link
-            className="hover:text-slate-400 active:text-black"
+          </NavLink>
+          <NavLink
+            className="hover:text-orange-500 active:text-black"
             to="/Catalog"
           >
             {t("catalog")}
-          </Link>
-          <Link className="hover:text-slate-400 active:text-black" to="/About">
+          </NavLink>
+          <NavLink className="hover:text-orange-500 active:text-black" to="/About">
             {t("About")}
-          </Link>
-          <Link
-            className="hover:text-slate-400 active:text-black"
+          </NavLink>
+          <NavLink
+            className="hover:text-orange-500 active:text-black"
             to="/Delivery"
           >
             {t("Delivery")}
-          </Link>
-          <Link className="hover:text-slate-400 active:text-black" to="/Market">
+          </NavLink>
+          <NavLink className="hover:text-orange-500 active:text-black" to="/Market">
             {t("Market")}
-          </Link>
-          <Link
-            className="hover:text-slate-400 active:text-black"
+          </NavLink>
+          <NavLink
+            className="hover:text-orange-500 active:text-black"
             to="/Contacts"
           >
             {t("Contact")}
-          </Link>
+          </NavLink>
         </ul>
         <ul className="flex m-auto gap-5 items-center">
           <li className="hidden lg:flex"> {t("Favorites")}</li>
