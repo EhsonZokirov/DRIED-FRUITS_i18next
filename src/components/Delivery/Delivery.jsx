@@ -7,6 +7,8 @@ function Delivery() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  console.log(changeLanguage());
+
   return (
     <div className="bg-[#538DFF0D] py-10">
       <h1 className="font-bold text-center text-[50px]"> {t("Delivery")} </h1>

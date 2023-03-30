@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 function Error404() {
   const { t, i18n } = useTranslation();
-  const changeLanguage = (language) => {  
+  const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  console.log(changeLanguage());
+
   return (
     <div>
       <div className="text-center ">

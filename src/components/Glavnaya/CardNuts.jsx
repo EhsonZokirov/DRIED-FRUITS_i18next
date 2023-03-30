@@ -9,6 +9,7 @@ function CardNuts() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  console.log(changeLanguage());
   return (
     <div>
       <div className="bg-[#F6F9FF] space-y-5 p-5 m-auto rounded-xl">

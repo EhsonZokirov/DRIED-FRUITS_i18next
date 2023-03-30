@@ -11,6 +11,8 @@ function Catalog() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  console.log(changeLanguage());
+  
   return (
     <div>
       <h1 className="font-bold text-center text-[50px] my-10">

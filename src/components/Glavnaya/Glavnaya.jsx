@@ -13,6 +13,7 @@ function Glavnaya() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  console.log(changeLanguage());
 
   return (
     <div>

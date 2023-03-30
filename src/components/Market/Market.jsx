@@ -8,6 +8,7 @@ function Market() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  console.log(changeLanguage());
   return (
     <div className="bg-[#538DFF0D] space-y-20 py-10">
       <h1 className="font-bold text-center text-[50px]"> {t("Marketme")} </h1>
