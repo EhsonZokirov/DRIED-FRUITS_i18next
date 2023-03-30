@@ -192,7 +192,7 @@ function Layout() {
             <Phone /> 8 993 313 31 33
           </li>
           <li className="flex gap-2 md:justify-start justify-center">
-            <Phone /> 8 993 313 31 33
+            <Phone /> 8 993 313 31 3
           </li>
           <li className="flex gap-2 md:justify-start justify-center">
             <Email /> Sychofrycti@Gmail.com
