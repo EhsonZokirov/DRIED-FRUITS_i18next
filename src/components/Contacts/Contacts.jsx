@@ -1,4 +1,4 @@
-import { t } from "i18next";
+
 import React from "react";
 import logoDARK from "../../images/logoDARK.png";
 

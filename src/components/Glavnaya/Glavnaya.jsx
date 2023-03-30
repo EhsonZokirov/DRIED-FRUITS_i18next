@@ -1,5 +1,4 @@
 import React from "react";
-import nadpis from "../../images/nadpis.png";
 import nuts from "../../images/nuts.png";
 import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";

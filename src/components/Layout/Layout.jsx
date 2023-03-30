@@ -1,8 +1,8 @@
-import { Email, Language, Phone } from "@mui/icons-material";
+import { Email, Phone } from "@mui/icons-material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import React from "react";
 import { Outlet } from "react-router";
-import { Nav, NavLink, NavLinkLinkNavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../images/logo.png";
 
 import { useTranslation } from "react-i18next";
@@ -120,7 +120,10 @@ function Layout() {
           >
             {t("catalog")}
           </NavLink>
-          <NavLink className="hover:text-orange-500 active:text-black" to="/About">
+          <NavLink
+            className="hover:text-orange-500 active:text-black"
+            to="/About"
+          >
             {t("About")}
           </NavLink>
           <NavLink
@@ -129,7 +132,10 @@ function Layout() {
           >
             {t("Delivery")}
           </NavLink>
-          <NavLink className="hover:text-orange-500 active:text-black" to="/Market">
+          <NavLink
+            className="hover:text-orange-500 active:text-black"
+            to="/Market"
+          >
             {t("Market")}
           </NavLink>
           <NavLink
@@ -179,7 +185,7 @@ function Layout() {
 
         <ul className="m-auto font-bold">
           <h1 className="font-bold md:text-start text-center text-[20px]">
-          {t("Contact")}
+            {t("Contact")}
           </h1>
           <hr className=" my-2 border-[1px solid] rounded-full md:m-0 m-auto w-[30%] bg-black p-[2px]" />
           <li className="flex gap-2 md:justify-start justify-center">
@@ -195,9 +201,7 @@ function Layout() {
             <li className="flex gap-2 md:m-0 m-auto md:justify-start justify-center">
               <LocationOnIcon />
             </li>
-            <li className="md:w-[60%] ">
-              {t("Adress")}
-            </li>
+            <li className="md:w-[60%] ">{t("Adress")}</li>
           </div>
         </ul>
       </footer>
