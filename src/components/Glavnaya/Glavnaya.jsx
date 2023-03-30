@@ -9,11 +9,7 @@ import CardNuts from "./CardNuts";
 import { useTranslation } from "react-i18next";
 
 function Glavnaya() {
-  const { t, i18n } = useTranslation();
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
-  console.log(changeLanguage());
+  const { t } = useTranslation();
 
   return (
     <div>

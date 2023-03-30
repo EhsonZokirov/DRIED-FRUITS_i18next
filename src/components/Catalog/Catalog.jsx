@@ -7,12 +7,8 @@ import CardNuts from "../Glavnaya/CardNuts";
 import { useTranslation } from "react-i18next";
 
 function Catalog() {
-  const { t, i18n } = useTranslation();
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
-  console.log(changeLanguage());
-  
+  const { t } = useTranslation();
+
   return (
     <div>
       <h1 className="font-bold text-center text-[50px] my-10">
@@ -41,10 +37,10 @@ function Catalog() {
                 {t("Snacks")}
               </li>
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">
-              {t("Candied fruit")}
+                {t("Candied fruit")}
               </li>
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">
-              {t("ExoticFruits")}
+                {t("ExoticFruits")}
               </li>
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">
                 {t("Berries")}
@@ -56,10 +52,10 @@ function Catalog() {
                 {t("Grocery")}
               </li>
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">
-              {t("Snacks")}
+                {t("Snacks")}
               </li>
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">
-              {t("Berries")}
+                {t("Berries")}
               </li>
             </ul>
           </div>

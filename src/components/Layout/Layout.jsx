@@ -106,7 +106,7 @@ function Layout() {
         </nav>
       </header>
       <Outlet />
-      <nav className="md:grid my-20 md:flex flex-wrap md:grid-cols-2 items-center p-5 hidden ">
+      <nav className="md:grid my-20 flex-wrap md:grid-cols-2 items-center p-5 hidden ">
         <ul className="hidden lg:flex  m-auto items-center md:gap-5 ">
           <NavLink
             className="hover:text-orange-500 active:text-black"

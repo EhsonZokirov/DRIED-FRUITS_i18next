@@ -4,11 +4,8 @@ import mehrgon from "../../images/mehrgon.jpg";
 import { useTranslation } from "react-i18next";
 
 function Market() {
-  const { t, i18n } = useTranslation();
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
-  console.log(changeLanguage());
+  const { t } = useTranslation();
+
   return (
     <div className="bg-[#538DFF0D] space-y-20 py-10">
       <h1 className="font-bold text-center text-[50px]"> {t("Marketme")} </h1>
@@ -23,7 +20,7 @@ function Market() {
             </p>
           </div>
         </div>
-        
+
         <div className="flex flex-wrap justify-center">
           <div className="m-auto">
             <img className="m-auto rounded-2xl" src={mehrgon} alt="mehrgon" />
@@ -34,7 +31,6 @@ function Market() {
             </p>
           </div>
         </div>
-        
       </div>
       <div>
         <img className="m-auto" src={logoDARK} alt="logo DARK" />

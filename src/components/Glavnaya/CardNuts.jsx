@@ -5,11 +5,8 @@ import SearchIcon from "@mui/icons-material/Search";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { useTranslation } from "react-i18next";
 function CardNuts() {
-  const { t, i18n } = useTranslation();
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
-  console.log(changeLanguage());
+  const { t } = useTranslation();
+
   return (
     <div>
       <div className="bg-[#F6F9FF] space-y-5 p-5 m-auto rounded-xl">

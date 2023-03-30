@@ -3,11 +3,7 @@ import logoDARK from "../../images/logoDARK.png";
 import { useTranslation } from "react-i18next";
 
 function About() {
-  const { t, i18n } = useTranslation();
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
-  console.log(changeLanguage());
+  const { t } = useTranslation();
 
   return (
     <div className="bg-[#538DFF0D] py-10">
