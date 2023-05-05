@@ -24,7 +24,7 @@ function Catalog() {
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">
                 {t("ExoticFruits")}
               </li>
-              <li className="bg-[#FEB302] text-white p-2 rounded-lg">
+              <li className="hover:bg-[#FEB302] hover:text-white p-2 rounded-lg">
                 {t("Berries")}
               </li>
               <li className="hover:bg-[#FEB302] hover:text-white p-2 cursor-pointer rounded-lg">

@@ -15,13 +15,13 @@ function Layout() {
   return (
     <div>
       <header>
-        <nav className="md:grid gap-5 flex flex-wrap md:grid-cols-2 items-center p-5 bg-[#538DFF0D]">
+        <nav className="md:grid gap-5 flex justify-center flex-wrap md:grid-cols-2 items-center p-5 bg-[#538DFF0D]">
           <li className="flex lg:hidden gap-2 m-auto md:m-0">
             <img src={logo} alt="logo" />
           </li>
-          <ul className="hidden lg:flex  m-auto items-center md:gap-5 ">
-            <li className="flex gap-2">
-              <img src={logo} alt="logo" />
+          <ul className=" lg:flex justify-center space-x-2 m-auto items-center md:gap-5 ">
+            <li className=" flex gap-2">
+              <img className="hidden sm:flex " src={logo} alt="logo" />
             </li>
             <NavLink
               className="hover:text-orange-500 active:text-black"

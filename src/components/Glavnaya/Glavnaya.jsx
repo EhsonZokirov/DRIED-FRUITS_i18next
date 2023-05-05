@@ -20,7 +20,7 @@ function Glavnaya() {
             {/* <img className="w-[80%] m-auto" src={nadpis} alt="nadpis" /> */}
             <h1 className="text-[150px] font-extralight">
               <span className="text-[#BC5D1D]">{t("Dri")}</span>
-              {t("ed")} <span className="font-bold">{t("Fruits")}</span>
+              {t("ed")} <span className="font-bold md:text-[145px] text-[135px]">{t("Fruits")}</span>
             </h1>
             <p className="text-[20px] w-[85%] m-auto font-extralight text-slate-400 py-10">
               {t("Lorem")}
