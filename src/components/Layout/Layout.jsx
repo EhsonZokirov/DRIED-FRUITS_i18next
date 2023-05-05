@@ -24,37 +24,37 @@ function Layout() {
               <img className="hidden sm:flex " src={logo} alt="logo" />
             </li>
             <NavLink
-              className="hover:text-orange-500 active:text-black"
+              className="hover:text-orange-500 transition-all active:text-black"
               to="/Glavnaya"
             >
               {t("home")}
             </NavLink>
             <NavLink
-              className="hover:text-orange-500 active:text-black"
+              className="hover:text-orange-500 transition-all active:text-black"
               to="/Catalog"
             >
               {t("catalog")}
             </NavLink>
             <NavLink
-              className="hover:text-orange-500 active:text-black"
+              className="hover:text-orange-500 transition-all active:text-black"
               to="/About"
             >
               {t("About")}
             </NavLink>
             <NavLink
-              className="hover:text-orange-500 active:text-black"
+              className="hover:text-orange-500 transition-all active:text-black"
               to="/Delivery"
             >
               {t("Delivery")}
             </NavLink>
             <NavLink
-              className="hover:text-orange-500 active:text-black"
+              className="hover:text-orange-500 transition-all active:text-black"
               to="/Market"
             >
               {t("Market")}
             </NavLink>
             <NavLink
-              className="hover:text-orange-500 active:text-black"
+              className="hover:text-orange-500 transition-all active:text-black"
               to="/Contacts"
             >
               {t("Contact")}
@@ -109,37 +109,37 @@ function Layout() {
       <nav className="md:grid my-20 flex-wrap md:grid-cols-2 items-center p-5 hidden ">
         <ul className="hidden lg:flex  m-auto items-center md:gap-5 ">
           <NavLink
-            className="hover:text-orange-500 active:text-black"
+            className="hover:text-orange-500 transition-all active:text-black"
             to="/Glavnaya"
           >
             {t("home")}
           </NavLink>
           <NavLink
-            className="hover:text-orange-500 active:text-black"
+            className="hover:text-orange-500 transition-all active:text-black"
             to="/Catalog"
           >
             {t("catalog")}
           </NavLink>
           <NavLink
-            className="hover:text-orange-500 active:text-black"
+            className="hover:text-orange-500 transition-all active:text-black"
             to="/About"
           >
             {t("About")}
           </NavLink>
           <NavLink
-            className="hover:text-orange-500 active:text-black"
+            className="hover:text-orange-500 transition-all active:text-black"
             to="/Delivery"
           >
             {t("Delivery")}
           </NavLink>
           <NavLink
-            className="hover:text-orange-500 active:text-black"
+            className="hover:text-orange-500 transition-all active:text-black"
             to="/Market"
           >
             {t("Market")}
           </NavLink>
           <NavLink
-            className="hover:text-orange-500 active:text-black"
+            className="hover:text-orange-500 transition-all active:text-black"
             to="/Contacts"
           >
             {t("Contact")}

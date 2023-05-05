@@ -66,25 +66,25 @@ function Glavnaya() {
           {t("Our range")}
         </h1>
         <ul className="grid gap-5 sm:grid-cols-3 md:grid-cols-7 m-auto w-[90%] my-10">
-          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer">
             {t("ExoticFruits")}
           </li>
-          <li className="m-auto hover:text-slate-900 active:text-black cursor-pointer  bg-[#FEB302] px-5 py-2  rounded-xl ">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer  ">
             {t("Berries")}
           </li>
-          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer ">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer ">
             {t("Driedberries")}
           </li>
-          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer">
             {t("Orientalsweets")}
           </li>
-          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer">
             {t("Snacks")}
           </li>
-          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer">
             {t("Candied fruit")}
           </li>
-          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2 transition-all bg-slate-50 rounded-xl active:text-white cursor-pointer">
             {t("Grocery")}
           </li>
         </ul>
