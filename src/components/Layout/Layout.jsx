@@ -21,7 +21,7 @@ function Layout() {
           </li>
           <ul className=" lg:flex justify-center space-x-2 m-auto items-center md:gap-5 ">
             <li className=" flex gap-2">
-              <img className="hidden sm:flex " src={logo} alt="logo" />
+              <img className=" hidden lg:flex" src={logo} alt="logo" />
             </li>
             <NavLink
               className="hover:text-orange-500 transition-all active:text-black"

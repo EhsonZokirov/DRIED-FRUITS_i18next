@@ -18,7 +18,7 @@ function Glavnaya() {
         <div className="grid md:grid-cols-2 md:w-[80%] m-auto ">
           <div className="">
             {/* <img className="w-[80%] m-auto" src={nadpis} alt="nadpis" /> */}
-            <h1 className="text-[150px] font-extralight">
+            <h1 className="text-[150px] text-center font-extralight">
               <span className="text-[#BC5D1D]">{t("Dri")}</span>
               {t("ed")}{" "}
               <span className="font-bold md:text-[145px] text-[135px]">
