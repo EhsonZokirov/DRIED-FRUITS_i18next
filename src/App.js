@@ -14,7 +14,7 @@ import Market from "./components/Market/Market";
 function App() {
 
   return (
-    <div className="container mx-auto">
+    <div>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/Glavnaya" element={<Glavnaya />} />

@@ -154,28 +154,28 @@ function Layout() {
         </ul>
       </nav>
       <hr />
-      <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 m-auto gap-10 ">
-        <ul className="m-auto hidden md:block">
+      <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-center sm:text-start m-auto gap-10 ">
+        <ul className="m-auto md:block">
           <h1 className="font-bold text-[20px]">{t("sections")} 1</h1>
-          <hr className=" my-2 border-[1px solid] rounded-full w-[30%] bg-black p-[2px]" />
+          <hr className=" my-2  border-[1px solid] rounded-full w-[30%] m-auto sm:m-0 bg-black p-[2px]" />
           <li>{t("Driedberries")}</li>
           <li>{t("Orientalsweets")}</li>
           <li>{t("Berries")}</li>
           <li>{t("Candied fruit")}</li>
           <li> {t("ExoticFruits")}</li>
         </ul>
-        <ul className="m-auto hidden md:block">
+        <ul className="m-auto md:block">
           <h1 className="font-bold text-[20px]">{t("sections")} 2</h1>
-          <hr className=" my-2 border-[1px solid] rounded-full w-[30%] bg-black p-[2px]" />
+          <hr className=" my-2 border-[1px solid] rounded-full w-[30%] m-auto sm:m-0 bg-black p-[2px]" />
           <li>{t("Driedberries")}</li>
           <li>{t("Orientalsweets")}</li>
           <li>{t("Berries")}</li>
           <li>{t("Candied fruit")}</li>
           <li> {t("ExoticFruits")}</li>
         </ul>
-        <ul className="m-auto hidden md:block">
+        <ul className="m-auto md:block">
           <h1 className="font-bold text-[20px]">{t("sections")} 3</h1>
-          <hr className=" my-2 border-[1px solid] rounded-full w-[30%] bg-black p-[2px]" />
+          <hr className=" my-2 border-[1px solid] rounded-full w-[30%] m-auto sm:m-0 bg-black p-[2px]" />
           <li>{t("Driedberries")}</li>
           <li>{t("Orientalsweets")}</li>
           <li>{t("Berries")}</li>
