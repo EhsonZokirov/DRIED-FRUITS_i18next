@@ -17,7 +17,7 @@ function Catalog() {
       {/* <div></div> */}
       <div className="flex flex-wrap md:flex-nowrap w-[90%] m-auto my-20 gap-10">
         {/*  */}
-        <div className="md:w-[30%] m-auto md:m-0">
+        <div className="w-[100%] md:w-[30%] m-auto md:m-0">
           <div>
             <ul className=" bg-[#538DFF0D] rounded-3xl p-5">
               <li className="font-bold text-[30px]">{t("catalog")}</li>

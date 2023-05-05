@@ -14,13 +14,16 @@ function Glavnaya() {
   return (
     <div>
       {/* section 1 */}
-      <section className="bg-[#538DFF0D] py-20">
+      <section className="bg-[#538DFF0D] md:py-20">
         <div className="grid md:grid-cols-2 md:w-[80%] m-auto ">
           <div className="">
             {/* <img className="w-[80%] m-auto" src={nadpis} alt="nadpis" /> */}
             <h1 className="text-[150px] font-extralight">
               <span className="text-[#BC5D1D]">{t("Dri")}</span>
-              {t("ed")} <span className="font-bold md:text-[145px] text-[135px]">{t("Fruits")}</span>
+              {t("ed")}{" "}
+              <span className="font-bold md:text-[145px] text-[135px]">
+                {t("Fruits")}
+              </span>
             </h1>
             <p className="text-[20px] w-[85%] m-auto font-extralight text-slate-400 py-10">
               {t("Lorem")}
@@ -63,25 +66,25 @@ function Glavnaya() {
           {t("Our range")}
         </h1>
         <ul className="grid gap-5 sm:grid-cols-3 md:grid-cols-7 m-auto w-[90%] my-10">
-          <li className="m-auto hover:text-slate-400 active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
             {t("ExoticFruits")}
           </li>
-          <li className="m-auto hover:text-slate-900 active:text-black cursor-pointer  bg-[#FEB302] px-5 py-2  rounded-xl text-white ">
+          <li className="m-auto hover:text-slate-900 active:text-black cursor-pointer  bg-[#FEB302] px-5 py-2  rounded-xl ">
             {t("Berries")}
           </li>
-          <li className="m-auto hover:text-slate-400 active:text-black cursor-pointer ">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer ">
             {t("Driedberries")}
           </li>
-          <li className="m-auto hover:text-slate-400 active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
             {t("Orientalsweets")}
           </li>
-          <li className="m-auto hover:text-slate-400 active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
             {t("Snacks")}
           </li>
-          <li className="m-auto hover:text-slate-400 active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
             {t("Candied fruit")}
           </li>
-          <li className="m-auto hover:text-slate-400 active:text-black cursor-pointer">
+          <li className="m-auto hover:bg-[#FEB302] hover:black px-5 py-2  rounded-xl active:text-black cursor-pointer">
             {t("Grocery")}
           </li>
         </ul>
